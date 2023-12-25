@@ -111,7 +111,7 @@ class LoginPageState extends State<LoginPage> {
                         InkWell(
                           onTap: () =>
                               Navigator.pushNamed(context, '/register'),
-                          child: const Text('Daftar di sini',
+                          child: const Text('Register here',
                               style: TextStyle(fontWeight: FontWeight.bold)),
                         )
                       ],

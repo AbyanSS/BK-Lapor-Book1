@@ -158,7 +158,7 @@ class _RegisterPageState extends State<RegisterPage> {
                           onTap: () {
                             Navigator.pushNamed(context, '/login');
                           },
-                          child: const Text('Login di sini',
+                          child: const Text('Login here',
                               style: TextStyle(fontWeight: FontWeight.bold)),
                         )
                       ],
