@@ -3,6 +3,8 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:lapor_book/components/styles.dart';
 import 'package:lapor_book/models/akun.dart';
+import 'package:lapor_book/pages/AllLaporan.dart';
+import 'package:lapor_book/pages/MyLaporan.dart';
 
 import 'ProfilePage.dart';
 
@@ -93,10 +95,10 @@ class _DashboardFull extends State<DashboardFull> {
   @override
   Widget build(BuildContext context) {  
     pages = <Widget>[
-      Text("Diisi nanti"),
-      Text("Kosong juga"),
-      // AllLaporan(akun: akun),
-      // MyLaporan(akun: akun),
+      // Text("Diisi nanti"),
+      // Text("Kosong juga"),
+      AllLaporan(akun: akun),
+      MyLaporan(akun: akun),
       Profile(akun: akun),
     ];
     return Scaffold(
