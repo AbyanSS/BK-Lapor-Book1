@@ -7,11 +7,6 @@ import 'package:lapor_book/pages/LoginPage.dart';
 import 'package:lapor_book/pages/RegisterPage.dart';
 import 'package:lapor_book/pages/SplashPage.dart';
 import 'package:lapor_book/pages/dashboard/DashboardPage.dart';
-// import 'package:flutter_lapor_book/pages/AddFormPage.dart';
-// import 'package:flutter_lapor_book/pages/dashboard/DashboardPage.dart';
-// import 'package:flutter_lapor_book/pages/DetailPage.dart';
-// import 'package:flutter_lapor_book/pages/LoginPage.dart';
-// import 'package:flutter_lapor_book/pages/RegisterPage.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
